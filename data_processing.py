@@ -1,7 +1,6 @@
 from scrapers import cambridge_async
 from scrapers import oxford_async
 from scrapers import merriamwebster_async
-from pprint import pprint
 import asyncio
 import aiohttp
 import random
