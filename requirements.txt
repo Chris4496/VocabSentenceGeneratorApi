@@ -6,4 +6,3 @@ fpdf==1.7.2
 fpdf2==2.5.7
 python_docx==0.8.11
 requests==2.27.1
-starlette==0.17.1
