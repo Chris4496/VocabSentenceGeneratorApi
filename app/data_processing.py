@@ -1,6 +1,6 @@
-from scrapers import cambridge_async
-from scrapers import oxford_async
-from scrapers import merriamwebster_async
+from app.scrapers import cambridge_async
+from app.scrapers import oxford_async
+from app.scrapers import merriamwebster_async
 import asyncio
 import aiohttp
 import random

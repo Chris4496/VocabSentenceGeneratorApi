@@ -1,5 +1,5 @@
-from data_processing import fetch_examples, tidy_examples
-from generator import generateTempTextFile, generateTempDocxFile, generateTempPDFFile
+from app.data_processing import fetch_examples, tidy_examples
+from app.generator import generateTempTextFile, generateTempDocxFile, generateTempPDFFile
 from fastapi import FastAPI, Query
 from typing import Union
 from fastapi.responses import FileResponse
