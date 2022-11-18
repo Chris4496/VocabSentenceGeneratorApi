@@ -53,12 +53,12 @@ def fetch_examples(words):
 
 
 def tidy_examples(words, examples_list, n_examples_per_word=1):
-    # remove examples that don't contain the word
+    # remove examples that don't contain the word and doesn't end with a period
     for i in range(len(words)):
         examples = examples_list[i]
         new_examples = []
         for example in examples:
-            if words[i] in example or words[i].capitalize() in example:
+            if (words[i] in example or words[i].capitalize() in example) and example[-1] == ".":
                 new_examples.append(example)
         examples_list[i] = new_examples
 
